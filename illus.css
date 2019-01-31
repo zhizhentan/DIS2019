@@ -1,0 +1,208 @@
+a{
+font-family: 'DINosaur',sans-serif;
+font-weight: 300;
+font-style: normal;
+
+}
+
+p{
+font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+h2{
+font-family: 'DIN Condensed', sans-serif;
+color: gray;
+/*line-height: 0%;*/
+}
+
+<<<<<<< HEAD
+
+table {
+  font-family: DINosaur, sans-serif;
+  border-collapse: collapse;
+  color:gray;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+li{
+font-family: 'DINosaur', sans-serif;
+color: gray;
+font-family: 'DINosaur', sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: 150%;
+}
+
+=======
+>>>>>>> parent of c40dd75... fl2
+
+span.p2{
+  font-weight: bold;
+   /*color: black;*/
+   background-color:yellow; 
+   font-family: 'DIN Condensed', sans-serif;
+color: gray;
+   font-size: 20px;"
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;}
+/*怎么定义两种的hover状态*/
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+ul{
+	list-style-type:none;
+	margin:0;
+  padding:0;
+}
+
+li{
+  
+  padding:0px;
+}
+
+.main-navigation{
+width:200px;
+height:100%;
+position:fixed;
+float:left;
+background-color:white;
+margin:0;  
+padding:10px;
+top:-10px;
+/*为什么有白边*/
+}
+
+
+.project-navigation{
+  color: gray;
+width:200px;
+height:100%;
+position:fixed;
+top:160px;
+background-color:white;
+padding:10px;
+}
+
+.project-list{
+width:((100%)-200px);
+height:100%;
+background-color:white;
+margin:0;
+position:absolute;
+top:0;
+left:210px;
+float:right;
+margin:0;
+/* 为什么取消了margin不是相切而是重合*/
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+    float: left;
+    width: 100%;
+    padding: 6px;
+    margin:0;
+    text-align:center;
+    position:relative;
+
+}
+
+/*project 图片上的浮窗*/
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position:relative;
+}
+.text {
+ opacity: 0;
+   position:absolute;
+  text-align:center;
+
+ 
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.2;
+  position:relative;
+}
+
+.img-container:hover .text {
+  opacity: 1;
+   position:absolute;
+  left:35%;
+  top:40%;
+  right:40%;
+  float:center;
+  font-size:26px;
+}
+
+.refer {
+color: gray;
+float: left;
+text-align: left;
+position: absolute;
+right: 0;
+left:14vw;
+bottom: -152vh;
+
+
+
+
+}
+
