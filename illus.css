@@ -200,9 +200,29 @@ position: absolute;
 right: 0;
 left:14vw;
 bottom: -152vh;
-
-
-
-
 }
+
+
+
+/*-------------------------*/
+/*PROJECT*/
+.left
+{
+  width: 710px;
+  margin: 5px;
+  margin-left: -235px;
+  float: left;
+}
+.right
+{
+  width: 230px;
+  margin: 5px;
+  left: 720px;
+  float: left;
+}
+
+
+
+
+
 
